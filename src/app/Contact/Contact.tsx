@@ -1,4 +1,4 @@
-function Info({ task, value }) {
+function Info({ task, value }:{task:React.ReactNode,value:React.ReactNode}) {
     return (
       <div className="flex flex-col justify-evenly">
         <h1 className="font-normal ml-3">{task}</h1>

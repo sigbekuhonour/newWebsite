@@ -33,7 +33,6 @@ const projects = [
 function ProjectComponent({ alt, image, title, description, link }) {
   return (
     <div className="flex flex-col shadow-lg rounded-xl px-5 w-full justify-evenly items-center">
-      <image />
       <Image
         src={image}
         width={90}
