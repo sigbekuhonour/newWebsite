@@ -19,7 +19,7 @@ const techStack = [
 ];
 function Tech({ image, title, info }: any) {
   return (
-    <div className="flex flex-col justify-evenly">
+    <div className="flex flex-col justify-evenly mx-4">
       <Image
         src={image}
         width={35}
