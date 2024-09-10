@@ -1,4 +1,3 @@
-import { title } from "process";
 import Image from "next/image";
 
 const projects = [
@@ -30,7 +29,7 @@ const projects = [
     id: 1,
   },
 ];
-function ProjectComponent({ alt, image, title, description, link }) {
+function ProjectComponent({ alt, image, title, description, link }:any) {
   return (
     <div className="flex flex-col shadow-lg rounded-xl px-5 w-full justify-evenly items-center">
       <Image
