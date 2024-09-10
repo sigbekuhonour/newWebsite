@@ -17,7 +17,7 @@ const techStack = [
     image: "/Honour_img/appdev.png",
   },
 ];
-function Tech({ image, title, info }) {
+function Tech({ image, title, info }: any) {
   return (
     <div className="flex flex-col justify-evenly">
       <Image
