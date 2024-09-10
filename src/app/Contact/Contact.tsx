@@ -1,7 +1,7 @@
 function Info({ task, value }: any) {
   return (
     <div className="flex flex-col justify-evenly">
-      <h1 className="font-normal ml-3">{task}</h1>
+      <h1 className="font-normal ml-3 px-8">{task}</h1>
       <h2 className="font-medium ml-3">{value}</h2>
     </div>
   );
