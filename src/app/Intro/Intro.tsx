@@ -26,7 +26,7 @@ export default function Intro() {
         can contribute to your next innovative project.
       </h2>
       <div className="shadow-md w-32 h-8 bg-slate-950 hover:shadow-xl border-dashed border rounded-lg items-center">
-        <a href="https://drive.google.com/file/d/1F5gC3rvSEnoBdg94czkUFZQOITM8dQVL/view?usp=share_link">
+        <a href="https://drive.google.com/file/d/1IDxXO-X7KYl2h0m_1owP6YLvNilMdnI5/view?usp=drive_link">
           <h1 className="text-white text-sm py-1 px-3 ">Link to resume</h1>
         </a>
       </div>
