@@ -11,9 +11,8 @@ export default function Contact() {
   return (
     <div
       id="Contact"
-      className="flex flex-row justify-evenly mt-4 items-start border-t-4 border-black"
+      className="flex flex-row justify-center mt-4 items-start border-t-4 border-black"
     >
-      <Info task={"Phone"} value={"+1(709)-853-2123"} />
       <Info task={"Email"} value={"sigbekuhonour@gmail.com"} />
     </div>
   );
