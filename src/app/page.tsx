@@ -3,7 +3,7 @@ import Intro from "./Intro/Intro";
 import Project from "./Projects/Project";
 import Stack from "./Skillset/Stack";
 import Contact from "./Contact/Contact";
-import { Analytics } from "@vercel/analytics/react"
+
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         <Project />
         <Stack />
         <Contact />
-        <Analytics/>
+        
       </div>
     </main>
   );
