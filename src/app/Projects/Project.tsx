@@ -1,6 +1,15 @@
 import Image from "next/image";
 
 const projects = [
+    {
+    title: "Studyhubapp",
+    description:
+      "StudyHubApp is a student-focused note taking and collaboration tool designed to enhance studying, retention, and revision. ",
+    image: "/Honour_img/STUDY.png",
+    visit: "https://github.com/sigbekuhonour?tab=repositories",
+    alt: "Studyhubapp",
+    id: 0,
+  },
   {
     title: "TaskTrackr",
     description:
@@ -8,17 +17,8 @@ const projects = [
     image: "/Honour_img/tasktrackr.png",
     visit: "https://github.com/sigbekuhonour/TaskTrackr",
     alt: "Tasktrackr",
-    id: 0,
+    id: 1,
   },
-  // {
-  //   title: "LemAppClone",
-  //   description:
-  //     "This was a learning process of me trying to clone the Lemfi application using Jetpack Compose.",
-  //   image: "/Honour_img/Lemfi.png",
-  //   visit: "https://github.com/sigbekuhonour/LemfiCloneApp",
-  //   alt: "LemApp",
-  //   id: 1,
-  // },
   {
     title: "Qodo",
     description:
@@ -26,7 +26,7 @@ const projects = [
     image: "/Honour_img/qrcode.png",
     visit: "https://github.com/sigbekuhonour/Python-projects",
     alt: "QRgen",
-    id: 1,
+    id: 2,
   },
 ];
 function ProjectComponent({ alt, image, title, description, link }:any) {
