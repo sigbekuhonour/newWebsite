@@ -6,7 +6,7 @@ const projects = [
     description:
       "StudyHubApp is a student-focused note taking and collaboration tool designed to enhance studying, retention, and revision. ",
     image: "/Honour_img/STUDY.png",
-    visit: "https://github.com/sigbekuhonour?tab=repositories",
+    visit: "https://github.com/sigbekuhonour/studyhubapp",
     alt: "Studyhubapp",
     id: 0,
   },
@@ -70,23 +70,15 @@ export default function Project() {
           Yeah you 🙄, this is where you watch and learn carefully.
         </h1>
       </div>
-      <div className="flex flex-col w-screen overflow-scroll justify-evenly gap-4 items-start shadow-xl">
-        <ProjectComponent
-          alt={projects[0].alt}
-          image={projects[0].image}
-          title={projects[0].title}
-          description={projects[0].description}
-          link={projects[0].visit}
-        />
-
-        <ProjectComponent
-          alt={projects[1].alt}
-          image={projects[1].image}
-          title={projects[1].title}
-          description={projects[1].description}
-          link={projects[1].visit}
-        />
-      </div>
+ {projects.map((eachProject) => (
+    <ProjectComponent
+      alt={eachProject.alt}
+      image={eachProject.image}
+      title={eachProject.title}
+      description={eachProject.description}
+      link={eachProject.visit}
+    />
+  ))}
     </div>
   );
 }
