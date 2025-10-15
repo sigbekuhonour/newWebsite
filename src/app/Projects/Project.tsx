@@ -29,9 +29,9 @@ const projects = [
     id: 2,
   },
 ];
-function ProjectComponent({ alt, image, title, description, link }:any) {
+function ProjectComponent({ key, alt, image, title, description, link }:any) {
   return (
-    <div className="flex flex-col shadow-lg rounded-xl px-5 w-full justify-evenly items-center">
+    <div id = {key}className="flex flex-col shadow-lg rounded-xl px-5 w-full justify-evenly items-center">
       <Image
         src={image}
         width={90}
@@ -72,6 +72,7 @@ export default function Project() {
       </div>
  {projects.map((eachProject) => (
     <ProjectComponent
+    key = {eachProject.id}
       alt={eachProject.alt}
       image={eachProject.image}
       title={eachProject.title}
