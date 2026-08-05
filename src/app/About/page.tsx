@@ -1,5 +1,5 @@
 import SectionTitle from "@/components/ui/title/SectionTitle";
-import Header from "../Header/Header";
+import Header from "@/components/navigation/Header";
 import Image from "next/image";
 import TechCard from "@/components/ui/card/TechCard";
 

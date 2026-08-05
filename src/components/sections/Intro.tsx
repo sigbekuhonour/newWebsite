@@ -1,6 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
-import Header from "../Header/Header";
+import Header from "@/components/navigation/Header";
 import { ArrowUpRight } from "lucide-react";
 
 export default function Intro() {
@@ -23,7 +22,7 @@ export default function Intro() {
           alt="Honour Sigbeku portrait"
           fill
           priority
-          className="object-scale-down  filter grayscale contrast-90 pt-20"
+          className="object-scale-down filter grayscale contrast-90 pt-20"
         />
       </div>
       <Header itemColour="text-black" />

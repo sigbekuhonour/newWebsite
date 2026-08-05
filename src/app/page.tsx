@@ -1,8 +1,4 @@
-import Header from "./Header/Header";
-import Intro from "./Intro/Intro";
-import Project from "./Projects/Project";
-import Stack from "./Skillset/Stack";
-import Contact from "./Contact/Contact";
+import Intro from "@/components/sections/Intro";
 
 export default function Home() {
   return (
