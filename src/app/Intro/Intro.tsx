@@ -12,7 +12,7 @@ export default function Intro() {
       <div className="absolute inset-1 rounded-t-2xl overflow-hidden isolate">
         <Image
           src="/images/honour.jpeg"
-          alt="Honour Sigbeku portrait"
+          alt="Honour Sigbeku portrait blurred"
           fill
           priority
           className="object-cover blur-[60px] scale-100 brightness-125 filter grayscale contrast-90 will-change-transform"
