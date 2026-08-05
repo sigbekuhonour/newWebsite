@@ -57,7 +57,7 @@ export default function Project() {
       className="flex flex-col mt-4 w-full space-y-2 text-sm justify-evenly items-start"
     >
       <h1 className="text-xl font-bold ml-3">My Projects</h1>
-      <div className="flex flex-row items-center w-full justify-stretch md:shrink-1 shadow-lg">
+      <div className="flex flex-row items-center w-full justify-stretch md:shrink shadow-lg">
         <Image
           src="/Honour_img/Shakespare.jpg"
           width={85}
