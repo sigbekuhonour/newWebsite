@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import {
   ChevronLeft,
   ChevronRight,
@@ -8,7 +9,10 @@ import {
   Calendar as CalendarIcon,
 } from "lucide-react";
 import { getAvailableTimeSlots } from "@/lib/calendarUtils";
-import BookingModal from "./BookingModal";
+
+const BookingModal = dynamic(() => import("./BookingModal"), {
+  ssr: false,
+});
 
 export default function BookingCalendar() {
   const today = new Date();

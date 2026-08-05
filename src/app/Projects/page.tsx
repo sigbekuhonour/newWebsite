@@ -1,6 +1,18 @@
+import type { Metadata } from "next";
 import Header from "@/components/navigation/Header";
 import SectionTitle from "@/components/ui/title/SectionTitle";
 import { Minus } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Projects",
+  description:
+    "Explore software engineering projects created by Honour Sigbeku, including mobile apps, web applications.",
+  openGraph: {
+    title: "Projects | Honour Sigbeku",
+    description:
+      "Explore software engineering projects created by Honour Sigbeku, including mobile apps, web applications.",
+  },
+};
 
 const projectsData = [
   {
@@ -13,7 +25,7 @@ const projectsData = [
     title: "Graceville bookstore management website",
     description:
       "This is a bookstore management website I built with admin management features for a book store owner.",
-    github: "https://github.com/sigbekuhonour/Graceville-bookstore",
+    github: "https://github.com/sigbekuhonour/BookWebsite",
   },
   {
     title: "Tasktrackr",

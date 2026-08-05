@@ -1,5 +1,17 @@
+import type { Metadata } from "next";
 import Header from "@/components/navigation/Header";
 import SectionTitle from "@/components/ui/title/SectionTitle";
+
+export const metadata: Metadata = {
+  title: "Experiences",
+  description:
+    "Work history, internships, leadership roles, and hackathon experience of Honour Sigbeku.",
+  openGraph: {
+    title: "Experiences | Honour Sigbeku",
+    description:
+      "Work history, internships, leadership roles, and hackathon experience of Honour Sigbeku.",
+  },
+};
 
 const workExperiences = [
   {

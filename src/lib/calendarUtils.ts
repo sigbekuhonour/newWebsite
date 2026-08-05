@@ -101,7 +101,7 @@ export function createGoogleCalendarUrl(details: MeetingDetails): string {
   const title = `30-Min Call: ${details.name} & Honour Sigbeku`;
   const description = `Meeting Request from ${details.name} (${details.email})\n\nNotes/Topic:\n${details.notes || "No notes provided."}`;
   const location = "Google Meet / Video Call";
-  const myEmail = "sigbekuhonour@gmail.com";
+  const myEmail = ["sigbekuhonour", "gmail.com"].join("@");
 
   const params = new URLSearchParams({
     action: "TEMPLATE",
@@ -128,7 +128,7 @@ export function downloadICSFile(details: MeetingDetails): void {
 
   const title = `30-Min Call: ${details.name} & Honour Sigbeku`;
   const description = `Meeting Request from ${details.name} (${details.email})\n\nNotes/Topic:\n${details.notes || "No notes provided."}`;
-  const myEmail = "sigbekuhonour@gmail.com";
+  const myEmail = ["sigbekuhonour", "gmail.com"].join("@");
 
   const icsContent = [
     "BEGIN:VCALENDAR",

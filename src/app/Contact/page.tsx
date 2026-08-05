@@ -1,8 +1,21 @@
+import type { Metadata } from "next";
 import Header from "@/components/navigation/Header";
 import SectionTitle from "@/components/ui/title/SectionTitle";
 import BookingCalendar from "@/components/ui/calendar/BookingCalendar";
+import ObfuscatedEmail from "@/components/ui/email/ObfuscatedEmail";
 import { FileText } from "lucide-react";
 import { LinkedInLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description:
+    "Get in touch with Honour Sigbeku for freelance projects, full-time opportunities, or schedule a 30-minute meeting.",
+  openGraph: {
+    title: "Contact | Honour Sigbeku",
+    description:
+      "Get in touch with Honour Sigbeku for freelance projects, full-time opportunities, or schedule a 30-minute meeting.",
+  },
+};
 
 export default function ContactPage() {
   return (
@@ -39,12 +52,11 @@ export default function ContactPage() {
               <h3 className="text-sm sm:text-base md:text-lg font-bold tracking-widest uppercase text-white">
                 Email
               </h3>
-              <a
-                href="mailto:sigbekuhonour@gmail.com"
+              <ObfuscatedEmail
+                user="sigbekuhonour"
+                domain="gmail.com"
                 className="text-xs sm:text-sm md:text-base font-extralight text-white/90 underline hover:text-white transition-colors tracking-wide"
-              >
-                sigbekuhonour@gmail.com
-              </a>
+              />
             </div>
 
             <div className="flex flex-col gap-4">

@@ -1,7 +1,19 @@
+import type { Metadata } from "next";
 import SectionTitle from "@/components/ui/title/SectionTitle";
 import Header from "@/components/navigation/Header";
 import Image from "next/image";
 import TechCard from "@/components/ui/card/TechCard";
+
+export const metadata: Metadata = {
+  title: "About",
+  description:
+    "Learn more about Honour Sigbeku - CS & Math student, Software Developer Intern, tech stack, and background.",
+  openGraph: {
+    title: "About Honour Sigbeku",
+    description:
+      "Learn more about Honour Sigbeku - CS & Math student, Software Developer Intern, tech stack, and background.",
+  },
+};
 
 export default function AboutPage() {
   return (
