@@ -47,11 +47,11 @@ export default function AboutPage() {
             <p className="text-xs sm:text-sm md:text-base lg:text-lg font-extralight leading-relaxed text-white/90 max-w-5xl tracking-wide">
               This portfolio belongs to Honour Sigbeku. He is currently a 3rd
               year Computer Science Major and Mathematics Minor Student. He’s a
-              curious, sometimes crazy, problem solving inclined person. He
-              loves going to the gym, playing basketball, watching sports and on
-              random weekends plays the alto saxophone. On the programming side
-              of things he's currently aspiring to be a software engineer and
-              he's on his internship at{" "}
+              curious, problem solving inclined person. He loves going to the
+              gym, playing basketball, watching sports and on random weekends
+              plays the alto saxophone. On the programming side of things he's
+              currently aspiring to be a software engineer and he's on his
+              internship at{" "}
               <a
                 href="https://www.linkedin.com/company/townsuite-municipal-software/"
                 target="_blank"
